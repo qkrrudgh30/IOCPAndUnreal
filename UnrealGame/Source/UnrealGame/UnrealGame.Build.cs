@@ -1,0 +1,26 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+using UnrealBuildTool;
+
+public class UnrealGame : ModuleRules
+{
+	public UnrealGame(ReadOnlyTargetRules Target) : base(Target)
+	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+		PublicDependencyModuleNames.AddRange(new string[]
+		{
+			"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "EnhancedInput",
+			"Sockets", "Networking",
+		});
+		
+		PrivateDependencyModuleNames.AddRange(new string[] { "ProtobufCore" });
+
+		PrivateIncludePaths.AddRange(new string[]
+		{
+			"UnrealGame/",
+			"UnrealGame/Network/",
+			"UnrealGame/Game/",
+		});
+	}
+}

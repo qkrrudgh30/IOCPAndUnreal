@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\qkrru\\Desktop\\Server\\UnrealGame\\Source\\ProtobufCore\\ProtobufCore.Build.cs",
+		"C:\\Users\\qkrru\\Desktop\\Server\\UnrealGame\\Source\\UnrealGame\\UnrealGame.Build.cs",
+		"C:\\Users\\qkrru\\Desktop\\Server\\UnrealGame\\Source\\UnrealGame.Target.cs",
+		"C:\\Users\\qkrru\\Desktop\\Server\\UnrealGame\\Source\\UnrealGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}

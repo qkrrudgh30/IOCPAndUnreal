@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\qkrru\\desktop\\server\\unrealgame\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealgame\\uht\\unrealgame.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\qkrru\\desktop\\server\\unrealgame\\intermediate\\build\\win64\\unrealgameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\qkrru\\desktop\\server\\unrealgame\\intermediate\\build\\win64\\unrealeditor\\development\\unrealgame\\definitions.unrealgame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

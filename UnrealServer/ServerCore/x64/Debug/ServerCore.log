@@ -1,0 +1,23 @@
+﻿  pch.cpp
+  ReadableBuffer.cpp
+  WritableBuffer.cpp
+  CoreGlobal.cpp
+  CorePCH.cpp
+  CoreTLS.cpp
+  GlobalQueue.cpp
+  IOCPCore.cpp
+  IOCPEvent.cpp
+  Job.cpp
+  JobQueue.cpp
+  JobTimer.cpp
+  Receptionist.cpp
+  LockQueue.cpp
+  NetAddress.cpp
+  RecvBuffer.cpp
+  SendBuffer.cpp
+  Service.cpp
+  Session.cpp
+  SocketUtils.cpp
+  ThreadManager.cpp
+  Generating Code...
+  ServerCore.vcxproj -> C:\Users\qkrru\Desktop\Server\UnrealServer\Libraries\ServerCore\Debug\ServerCore.lib

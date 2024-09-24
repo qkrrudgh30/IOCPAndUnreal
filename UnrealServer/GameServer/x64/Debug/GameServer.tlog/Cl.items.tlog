@@ -1,0 +1,15 @@
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Actor.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Actor.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\CharacterBase.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\CharacterBase.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\ClientSession.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\ClientSession.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\ClientSessionManager.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\ClientSessionManager.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Enum.pb.cc;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Enum.pb.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\GameServer.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\GameServer.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Object.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Object.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\ObjectManager.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\ObjectManager.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\pch.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\pch.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\PlayerCharacter.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\PlayerCharacter.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Protocol.pb.cc;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Protocol.pb.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Room.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Room.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\ServerPacketHandler.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\ServerPacketHandler.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Struct.pb.cc;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Struct.pb.obj
+C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\Utils.cpp;C:\Users\qkrru\Desktop\Server\UnrealServer\GameServer\x64\Debug\Utils.obj

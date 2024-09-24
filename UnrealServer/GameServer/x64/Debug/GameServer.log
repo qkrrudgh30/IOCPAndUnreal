@@ -1,0 +1,18 @@
+﻿  pch.cpp
+  Actor.cpp
+  CharacterBase.cpp
+  ClientSession.cpp
+  ClientSessionManager.cpp
+  GameServer.cpp
+  Object.cpp
+  ObjectManager.cpp
+  PlayerCharacter.cpp
+  Room.cpp
+  ServerPacketHandler.cpp
+  Utils.cpp
+  Generating Code...
+  Enum.pb.cc
+  Protocol.pb.cc
+  Struct.pb.cc
+  Generating Code...
+  GameServer.vcxproj -> C:\Users\qkrru\Desktop\Server\UnrealServer\Binaries\GameServer\Debug\GameServer.exe
