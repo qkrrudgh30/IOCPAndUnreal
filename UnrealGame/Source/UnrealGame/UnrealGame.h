@@ -25,7 +25,8 @@ public:
 
 private:
 	TArray<BYTE> Buffer;
-	uint32       WriteSize = 0;
+	
+	uint32 WriteSize = 0;
 
 };
 
@@ -34,11 +35,6 @@ private:
 DEFINE_SHARED_PTR(USSession);
 DEFINE_SHARED_PTR(USPacketSession);
 DEFINE_SHARED_PTR(USSendBuffer);
-
-#include "ClientPacketHandler.h"
-#include "Kismet/GameplayStatics.h"
-#include "Engine/World.h"
-
 
 #define SEND_PACKET(Pkt)                                                      \
 	USSendBufferSharedPtr SendBuffer = SClientPacketHandler::MakePacket(Pkt);  \

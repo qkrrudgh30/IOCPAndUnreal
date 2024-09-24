@@ -5,9 +5,10 @@ USReadableBuffer::USReadableBuffer()
 }
 
 USReadableBuffer::USReadableBuffer(BYTE* InBuffer, uint32 InBufferSize, uint32 CurrentReadPosition)
-	: Buffer(InBuffer), BufferSize(InBufferSize), CurrentReadPosition(CurrentReadPosition)
+	: Buffer(InBuffer)
+    , BufferSize(InBufferSize)
+    , CurrentReadPosition(CurrentReadPosition)
 {
-
 }
 
 USReadableBuffer::~USReadableBuffer()

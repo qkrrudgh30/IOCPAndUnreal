@@ -59,7 +59,7 @@ int main()
 		auto sendBuffer = USServerPacketHandler::MakePacket(pkt);
 
 		GClientSessionManager.Broadcast(sendBuffer);
-		this_thread::sleep_for(0.1s);
+		this_thread::sleep_for(1s);
 	}
 
 	GThreadManager->Join();

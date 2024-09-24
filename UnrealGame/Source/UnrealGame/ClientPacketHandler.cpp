@@ -2,6 +2,8 @@
 #include "UnrealGame.h"
 #include "ReadableBuffer.h"
 
+USPacketHandlerFunctionType GPacketHandlerFunctions[UINT16_MAX];
+
 bool Handle_INVALID(USPacketSessionSharedPtr& InPacketSession, BYTE* InBuffer, int32 InBufferLength)
 {
 	return false;

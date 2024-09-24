@@ -1,4 +1,5 @@
 #pragma once
+
 class USWritableBuffer
 {
 public:
@@ -7,13 +8,13 @@ public:
     ~USWritableBuffer();
 
     BYTE* GetBuffer() { return Buffer; }
-    uint32			GetBufferSize() { return BufferSize; }
-    uint32			GetCurrentWritePosition() { return CurrentWritePosition; }
-    uint32			GetFreeSize() { return BufferSize - CurrentWritePosition; }
+    uint32 GetBufferSize() { return BufferSize; }
+    uint32 GetCurrentWritePosition() { return CurrentWritePosition; }
+    uint32 GetFreeSize() { return BufferSize - CurrentWritePosition; }
 
     template<typename T>
-    bool			Write(T* InStartPtrToWrite) { return Write(InStartPtrToWrite, sizeof(T)); }
-    bool			Write(void* InStartPtrToWrite, uint32 InWriteLength);
+    bool Write(T* InStartPtrToWrite) { return Write(InStartPtrToWrite, sizeof(T)); }
+    bool Write(void* InStartPtrToWrite, uint32 InWriteLength);
 
     template<typename T>
     T* Reserve(uint16 InCount = 1);
@@ -23,8 +24,11 @@ public:
 
 private:
     BYTE* Buffer = nullptr;
-    uint32			BufferSize = 0;
-    uint32			CurrentWritePosition = 0;
+
+    uint32 BufferSize = 0;
+    
+    uint32 CurrentWritePosition = 0;
+    
 };
 
 template<typename T>

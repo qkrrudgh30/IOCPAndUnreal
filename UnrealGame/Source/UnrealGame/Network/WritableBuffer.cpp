@@ -5,7 +5,9 @@ USWritableBuffer::USWritableBuffer()
 }
 
 USWritableBuffer::USWritableBuffer(BYTE* InBuffer, uint32 InBufferSize, uint32 InCurrentWritePosition)
-	: Buffer(InBuffer), BufferSize(InBufferSize), CurrentWritePosition(InCurrentWritePosition)
+	: Buffer(InBuffer)
+    , BufferSize(InBufferSize)
+    , CurrentWritePosition(InCurrentWritePosition)
 {
 
 }

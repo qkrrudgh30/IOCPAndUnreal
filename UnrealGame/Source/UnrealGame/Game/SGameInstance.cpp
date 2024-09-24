@@ -2,6 +2,8 @@
 
 
 #include "SGameInstance.h"
+
+#include "PacketSession.h"
 #include "UnrealGame.h"
 #include "Sockets.h"
 #include "Common/TcpSocketBuilder.h"
@@ -41,15 +43,8 @@ void USGameInstance::ConnectToServer()
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Connection Success.")));
 
-		// ServerSession = MakeShared<USPacketSession>(ClientSocket);
-		// ServerSession->Run();
-		//
-		// // TEMP : Lobby���� ĳ���� ����â ��
-		// {
-		// 	Protocol::C_LOGIN Pkt;
-		// 	SendBufferRef SendBuffer = ClientPacketHandler::MakeSendBuffer(Pkt);
-		// 	SendPacket(SendBuffer);
-		// }
+		ServerSession = MakeShared<USPacketSession>(ClientSocket);
+		ServerSession->Run();
 	}
 	else
 	{
@@ -69,8 +64,16 @@ void USGameInstance::DisconnectFromServer()
 
 void USGameInstance::HandleRecvPackets()
 {
+	if (ClientSocket == nullptr || ServerSession == nullptr)
+		return;
+
+	ServerSession->HandleRecvPackets();
 }
 
 void USGameInstance::SendPacket(USSendBufferSharedPtr InSendBuffer)
 {
+	if (ClientSocket == nullptr || ServerSession == nullptr)
+		return;
+
+	ServerSession->SendPacket(InSendBuffer);
 }
